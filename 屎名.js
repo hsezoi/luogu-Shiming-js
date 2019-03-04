@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  让除了你之外所有洛谷用户名变成屎色并添加作弊者标签，让自己化身强哥QAQ
-// @author       goodalloctor
+// @author       goodallocator
 // @match        https://www.luogu.org/*
 // @match        http://www.luogu.org/*
 // @match        https://www.luogu.org
