@@ -3,13 +3,13 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.3
 // @description  让除了你之外所有洛谷用户名变成屎色并添加作弊者标签，让自己化身强哥QAQ
-// @author       goodallocator
-// @match        https://www.luogu.org/*
-// @match        http://www.luogu.org/*
-// @match        https://www.luogu.org
-// @match        http://www.luogu.org
-// @match        https://www.luogu.org/space/show?uid=*
-// @match        http://www.luogu.org/space/show?uid=*
+// @author       ghj1222
+// @match        https://www.luogu.com.cn/*
+// @match        http://www.luogu.com.cn/*
+// @match        https://www.luogu.com.cn
+// @match        http://www.luogu.com.cn
+// @match        https://www.luogu.com.cn/space/show?uid=*
+// @match        http://www.luogu.com.cn/space/show?uid=*
 // @grant        none
 // ==/UserScript==
 
@@ -45,7 +45,7 @@
     }
     var tar1 = document.getElementsByClassName("lg-right");
     var tar2 = document.getElementsByClassName("lg-bignum-num");
-    if (document.URL == ("https://www.luogu.org/space/show?uid="+uid))
+    if (document.URL == ("https://www.luogu.com.cn/space/show?uid="+uid))
     {
         tar1[2].innerHTML="作弊者";
         tar2[2].innerHTML="-INF";
